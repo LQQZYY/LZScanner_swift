@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9183AEDA1DB0766C00AE222A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9183AED91DB0766C00AE222A /* AppDelegate.swift */; };
+		9183AEDC1DB0766C00AE222A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9183AEDB1DB0766C00AE222A /* ViewController.swift */; };
+		9183AEDF1DB0766C00AE222A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9183AEDD1DB0766C00AE222A /* Main.storyboard */; };
+		9183AEE11DB0766C00AE222A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9183AEE01DB0766C00AE222A /* Assets.xcassets */; };
+		9183AEE41DB0766C00AE222A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9183AEE21DB0766C00AE222A /* LaunchScreen.storyboard */; };
+		9183AEEF1DB0766C00AE222A /* LZCodeReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9183AEEE1DB0766C00AE222A /* LZCodeReaderUITests.swift */; };
+		9183AEFB1DB076C400AE222A /* LZScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9183AEFA1DB076C400AE222A /* LZScanner.swift */; };
+		9183AEFD1DB0B0FF00AE222A /* UIImageView+LongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9183AEFC1DB0B0FF00AE222A /* UIImageView+LongPress.swift */; };
+		9183AEFF1DB0B70700AE222A /* 1476347208.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183AEFE1DB0B70700AE222A /* 1476347208.png */; };
+		9183AF011DB0B87200AE222A /* LZScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9183AF001DB0B87200AE222A /* LZScanView.swift */; };
+		9183AF031DB0C10900AE222A /* LZScanConfigFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9183AF021DB0C10900AE222A /* LZScanConfigFile.swift */; };
+		9183AF051DB0C88400AE222A /* LZScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9183AF041DB0C88400AE222A /* LZScanViewController.swift */; };
+		9183AF101DB0D7BA00AE222A /* reader_scan_btn_back_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183AF071DB0D7BA00AE222A /* reader_scan_btn_back_nor@2x.png */; };
+		9183AF111DB0D7BA00AE222A /* reader_scan_btn_back_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183AF081DB0D7BA00AE222A /* reader_scan_btn_back_pressed@2x.png */; };
+		9183AF121DB0D7BA00AE222A /* reader_scan_btn_flashDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183AF091DB0D7BA00AE222A /* reader_scan_btn_flashDown@2x.png */; };
+		9183AF131DB0D7BA00AE222A /* reader_scan_btn_flashNor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183AF0A1DB0D7BA00AE222A /* reader_scan_btn_flashNor@2x.png */; };
+		9183AF141DB0D7BA00AE222A /* reader_scan_btn_flashOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183AF0B1DB0D7BA00AE222A /* reader_scan_btn_flashOff@2x.png */; };
+		9183AF151DB0D7BA00AE222A /* reader_scan_btn_photoDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183AF0C1DB0D7BA00AE222A /* reader_scan_btn_photoDown@2x.png */; };
+		9183AF161DB0D7BA00AE222A /* reader_scan_btn_photoNor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183AF0D1DB0D7BA00AE222A /* reader_scan_btn_photoNor@2x.png */; };
+		9183AF171DB0D7BA00AE222A /* reader_scan_scanCamera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183AF0E1DB0D7BA00AE222A /* reader_scan_scanCamera@3x.png */; };
+		9183AF181DB0D7BA00AE222A /* reader_scan_scanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183AF0F1DB0D7BA00AE222A /* reader_scan_scanLine@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9183AEEB1DB0766C00AE222A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9183AECE1DB0766C00AE222A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9183AED51DB0766C00AE222A;
+			remoteInfo = LZCodeReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9183AED61DB0766C00AE222A /* LZCodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZCodeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9183AED91DB0766C00AE222A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9183AEDB1DB0766C00AE222A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9183AEDE1DB0766C00AE222A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9183AEE01DB0766C00AE222A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9183AEE31DB0766C00AE222A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9183AEE51DB0766C00AE222A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9183AEEA1DB0766C00AE222A /* LZCodeReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZCodeReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9183AEEE1DB0766C00AE222A /* LZCodeReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZCodeReaderUITests.swift; sourceTree = "<group>"; };
+		9183AEF01DB0766C00AE222A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9183AEFA1DB076C400AE222A /* LZScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZScanner.swift; sourceTree = "<group>"; };
+		9183AEFC1DB0B0FF00AE222A /* UIImageView+LongPress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+LongPress.swift"; sourceTree = "<group>"; };
+		9183AEFE1DB0B70700AE222A /* 1476347208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1476347208.png; sourceTree = "<group>"; };
+		9183AF001DB0B87200AE222A /* LZScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZScanView.swift; sourceTree = "<group>"; };
+		9183AF021DB0C10900AE222A /* LZScanConfigFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZScanConfigFile.swift; sourceTree = "<group>"; };
+		9183AF041DB0C88400AE222A /* LZScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZScanViewController.swift; sourceTree = "<group>"; };
+		9183AF071DB0D7BA00AE222A /* reader_scan_btn_back_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reader_scan_btn_back_nor@2x.png"; sourceTree = "<group>"; };
+		9183AF081DB0D7BA00AE222A /* reader_scan_btn_back_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reader_scan_btn_back_pressed@2x.png"; sourceTree = "<group>"; };
+		9183AF091DB0D7BA00AE222A /* reader_scan_btn_flashDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reader_scan_btn_flashDown@2x.png"; sourceTree = "<group>"; };
+		9183AF0A1DB0D7BA00AE222A /* reader_scan_btn_flashNor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reader_scan_btn_flashNor@2x.png"; sourceTree = "<group>"; };
+		9183AF0B1DB0D7BA00AE222A /* reader_scan_btn_flashOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reader_scan_btn_flashOff@2x.png"; sourceTree = "<group>"; };
+		9183AF0C1DB0D7BA00AE222A /* reader_scan_btn_photoDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reader_scan_btn_photoDown@2x.png"; sourceTree = "<group>"; };
+		9183AF0D1DB0D7BA00AE222A /* reader_scan_btn_photoNor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reader_scan_btn_photoNor@2x.png"; sourceTree = "<group>"; };
+		9183AF0E1DB0D7BA00AE222A /* reader_scan_scanCamera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reader_scan_scanCamera@3x.png"; sourceTree = "<group>"; };
+		9183AF0F1DB0D7BA00AE222A /* reader_scan_scanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reader_scan_scanLine@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9183AED31DB0766C00AE222A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9183AEE71DB0766C00AE222A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9183AECD1DB0766C00AE222A = {
+			isa = PBXGroup;
+			children = (
+				9183AED81DB0766C00AE222A /* LZCodeReader */,
+				9183AEED1DB0766C00AE222A /* LZCodeReaderUITests */,
+				9183AED71DB0766C00AE222A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9183AED71DB0766C00AE222A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9183AED61DB0766C00AE222A /* LZCodeReader.app */,
+				9183AEEA1DB0766C00AE222A /* LZCodeReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9183AED81DB0766C00AE222A /* LZCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				9183AEFE1DB0B70700AE222A /* 1476347208.png */,
+				9183AEF91DB0768F00AE222A /* LZScanner */,
+				9183AED91DB0766C00AE222A /* AppDelegate.swift */,
+				9183AEDB1DB0766C00AE222A /* ViewController.swift */,
+				9183AEDD1DB0766C00AE222A /* Main.storyboard */,
+				9183AEE01DB0766C00AE222A /* Assets.xcassets */,
+				9183AEE21DB0766C00AE222A /* LaunchScreen.storyboard */,
+				9183AEE51DB0766C00AE222A /* Info.plist */,
+			);
+			path = LZCodeReader;
+			sourceTree = "<group>";
+		};
+		9183AEED1DB0766C00AE222A /* LZCodeReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9183AEEE1DB0766C00AE222A /* LZCodeReaderUITests.swift */,
+				9183AEF01DB0766C00AE222A /* Info.plist */,
+			);
+			path = LZCodeReaderUITests;
+			sourceTree = "<group>";
+		};
+		9183AEF91DB0768F00AE222A /* LZScanner */ = {
+			isa = PBXGroup;
+			children = (
+				9183AF061DB0D7BA00AE222A /* images */,
+				9183AF021DB0C10900AE222A /* LZScanConfigFile.swift */,
+				9183AEFA1DB076C400AE222A /* LZScanner.swift */,
+				9183AF001DB0B87200AE222A /* LZScanView.swift */,
+				9183AF041DB0C88400AE222A /* LZScanViewController.swift */,
+				9183AEFC1DB0B0FF00AE222A /* UIImageView+LongPress.swift */,
+			);
+			path = LZScanner;
+			sourceTree = "<group>";
+		};
+		9183AF061DB0D7BA00AE222A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9183AF071DB0D7BA00AE222A /* reader_scan_btn_back_nor@2x.png */,
+				9183AF081DB0D7BA00AE222A /* reader_scan_btn_back_pressed@2x.png */,
+				9183AF091DB0D7BA00AE222A /* reader_scan_btn_flashDown@2x.png */,
+				9183AF0A1DB0D7BA00AE222A /* reader_scan_btn_flashNor@2x.png */,
+				9183AF0B1DB0D7BA00AE222A /* reader_scan_btn_flashOff@2x.png */,
+				9183AF0C1DB0D7BA00AE222A /* reader_scan_btn_photoDown@2x.png */,
+				9183AF0D1DB0D7BA00AE222A /* reader_scan_btn_photoNor@2x.png */,
+				9183AF0E1DB0D7BA00AE222A /* reader_scan_scanCamera@3x.png */,
+				9183AF0F1DB0D7BA00AE222A /* reader_scan_scanLine@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9183AED51DB0766C00AE222A /* LZCodeReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9183AEF31DB0766C00AE222A /* Build configuration list for PBXNativeTarget "LZCodeReader" */;
+			buildPhases = (
+				9183AED21DB0766C00AE222A /* Sources */,
+				9183AED31DB0766C00AE222A /* Frameworks */,
+				9183AED41DB0766C00AE222A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZCodeReader;
+			productName = LZCodeReader;
+			productReference = 9183AED61DB0766C00AE222A /* LZCodeReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9183AEE91DB0766C00AE222A /* LZCodeReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9183AEF61DB0766C00AE222A /* Build configuration list for PBXNativeTarget "LZCodeReaderUITests" */;
+			buildPhases = (
+				9183AEE61DB0766C00AE222A /* Sources */,
+				9183AEE71DB0766C00AE222A /* Frameworks */,
+				9183AEE81DB0766C00AE222A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9183AEEC1DB0766C00AE222A /* PBXTargetDependency */,
+			);
+			name = LZCodeReaderUITests;
+			productName = LZCodeReaderUITests;
+			productReference = 9183AEEA1DB0766C00AE222A /* LZCodeReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9183AECE1DB0766C00AE222A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Artup;
+				TargetAttributes = {
+					9183AED51DB0766C00AE222A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 29BN9F9KNE;
+						ProvisioningStyle = Automatic;
+					};
+					9183AEE91DB0766C00AE222A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9183AED51DB0766C00AE222A;
+					};
+				};
+			};
+			buildConfigurationList = 9183AED11DB0766C00AE222A /* Build configuration list for PBXProject "LZCodeReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9183AECD1DB0766C00AE222A;
+			productRefGroup = 9183AED71DB0766C00AE222A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9183AED51DB0766C00AE222A /* LZCodeReader */,
+				9183AEE91DB0766C00AE222A /* LZCodeReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9183AED41DB0766C00AE222A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9183AF141DB0D7BA00AE222A /* reader_scan_btn_flashOff@2x.png in Resources */,
+				9183AF101DB0D7BA00AE222A /* reader_scan_btn_back_nor@2x.png in Resources */,
+				9183AF151DB0D7BA00AE222A /* reader_scan_btn_photoDown@2x.png in Resources */,
+				9183AF171DB0D7BA00AE222A /* reader_scan_scanCamera@3x.png in Resources */,
+				9183AF111DB0D7BA00AE222A /* reader_scan_btn_back_pressed@2x.png in Resources */,
+				9183AF131DB0D7BA00AE222A /* reader_scan_btn_flashNor@2x.png in Resources */,
+				9183AEE41DB0766C00AE222A /* LaunchScreen.storyboard in Resources */,
+				9183AF161DB0D7BA00AE222A /* reader_scan_btn_photoNor@2x.png in Resources */,
+				9183AF181DB0D7BA00AE222A /* reader_scan_scanLine@2x.png in Resources */,
+				9183AEE11DB0766C00AE222A /* Assets.xcassets in Resources */,
+				9183AEDF1DB0766C00AE222A /* Main.storyboard in Resources */,
+				9183AF121DB0D7BA00AE222A /* reader_scan_btn_flashDown@2x.png in Resources */,
+				9183AEFF1DB0B70700AE222A /* 1476347208.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9183AEE81DB0766C00AE222A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9183AED21DB0766C00AE222A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9183AEFB1DB076C400AE222A /* LZScanner.swift in Sources */,
+				9183AEDC1DB0766C00AE222A /* ViewController.swift in Sources */,
+				9183AF011DB0B87200AE222A /* LZScanView.swift in Sources */,
+				9183AF051DB0C88400AE222A /* LZScanViewController.swift in Sources */,
+				9183AEFD1DB0B0FF00AE222A /* UIImageView+LongPress.swift in Sources */,
+				9183AF031DB0C10900AE222A /* LZScanConfigFile.swift in Sources */,
+				9183AEDA1DB0766C00AE222A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9183AEE61DB0766C00AE222A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9183AEEF1DB0766C00AE222A /* LZCodeReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9183AEEC1DB0766C00AE222A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9183AED51DB0766C00AE222A /* LZCodeReader */;
+			targetProxy = 9183AEEB1DB0766C00AE222A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9183AEDD1DB0766C00AE222A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9183AEDE1DB0766C00AE222A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9183AEE21DB0766C00AE222A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9183AEE31DB0766C00AE222A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9183AEF11DB0766C00AE222A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9183AEF21DB0766C00AE222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9183AEF41DB0766C00AE222A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29BN9F9KNE;
+				INFOPLIST_FILE = LZCodeReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZCodeReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9183AEF51DB0766C00AE222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29BN9F9KNE;
+				INFOPLIST_FILE = LZCodeReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZCodeReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9183AEF71DB0766C00AE222A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LZCodeReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZCodeReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LZCodeReader;
+			};
+			name = Debug;
+		};
+		9183AEF81DB0766C00AE222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LZCodeReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artup.LZCodeReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LZCodeReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9183AED11DB0766C00AE222A /* Build configuration list for PBXProject "LZCodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9183AEF11DB0766C00AE222A /* Debug */,
+				9183AEF21DB0766C00AE222A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9183AEF31DB0766C00AE222A /* Build configuration list for PBXNativeTarget "LZCodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9183AEF41DB0766C00AE222A /* Debug */,
+				9183AEF51DB0766C00AE222A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9183AEF61DB0766C00AE222A /* Build configuration list for PBXNativeTarget "LZCodeReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9183AEF71DB0766C00AE222A /* Debug */,
+				9183AEF81DB0766C00AE222A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9183AECE1DB0766C00AE222A /* Project object */;
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ebo-TF-Ooh">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LZCodeReader" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Va-Kr-ckb">
+                                <state key="normal" title="开始扫描"/>
+                                <connections>
+                                    <action selector="beginScan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LjS-AZ-jUc"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="1476347208.png" translatesAutoresizingMaskIntoConstraints="NO" id="MiP-ZG-Hj4"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZU1-IU-Ahy">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="tI6-mc-Q5c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="长按识别" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2Y-06-Aws">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="1476347208.png" translatesAutoresizingMaskIntoConstraints="NO" id="NiE-CL-Pdo"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZU1-IU-Ahy" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="0CB-ef-TrL"/>
+                            <constraint firstAttribute="bottom" secondItem="NiE-CL-Pdo" secondAttribute="bottom" constant="20" symbolic="YES" id="LFM-Hu-KmO"/>
+                            <constraint firstItem="NiE-CL-Pdo" firstAttribute="top" secondItem="B2Y-06-Aws" secondAttribute="bottom" constant="18" id="Nmd-Mu-ztn"/>
+                            <constraint firstItem="7Va-Kr-ckb" firstAttribute="trailing" secondItem="B2Y-06-Aws" secondAttribute="trailing" id="Ozt-pk-WpA"/>
+                            <constraint firstItem="NiE-CL-Pdo" firstAttribute="leading" secondItem="MiP-ZG-Hj4" secondAttribute="leading" id="RQX-Cc-XjQ"/>
+                            <constraint firstItem="B2Y-06-Aws" firstAttribute="top" secondItem="ZU1-IU-Ahy" secondAttribute="bottom" constant="17" id="W8K-Kr-5L1"/>
+                            <constraint firstItem="7Va-Kr-ckb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XbB-p6-ZmI"/>
+                            <constraint firstItem="ZU1-IU-Ahy" firstAttribute="leading" secondItem="MiP-ZG-Hj4" secondAttribute="leading" id="b8G-lz-Z2M"/>
+                            <constraint firstItem="MiP-ZG-Hj4" firstAttribute="top" secondItem="NiE-CL-Pdo" secondAttribute="top" id="g3j-fF-z86"/>
+                            <constraint firstItem="7Va-Kr-ckb" firstAttribute="centerX" secondItem="MiP-ZG-Hj4" secondAttribute="centerX" id="sgT-Qh-jnp"/>
+                            <constraint firstItem="ZU1-IU-Ahy" firstAttribute="top" secondItem="7Va-Kr-ckb" secondAttribute="bottom" constant="8" symbolic="YES" id="xpC-TB-UP5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bce-Zb-7O4"/>
+                    <connections>
+                        <outlet property="imageView" destination="NiE-CL-Pdo" id="pfN-Bh-yxR"/>
+                        <outlet property="label" destination="ZU1-IU-Ahy" id="omu-U9-o7f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078.125" y="136.26760563380282"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IGT-gw-XWE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ebo-TF-Ooh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qe2-vk-yXY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1qV-0Q-7cd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pdS-Y9-JsE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.600000000000001" y="-545.57721139430294"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1476347208.png" width="280" height="280"/>
+    </resources>
+</document>
